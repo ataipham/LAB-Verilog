@@ -36,40 +36,6 @@ The testbench (`fifo_tb.v`) performs the following verification steps:
 
 ---
 
-## 🧪 Lab 1: Combinational & Sequential Logic Exercises
-
-This repository also contains foundational designs from **Lab 1**, covering multiplexers, arithmetic circuits, and comparators.
-
-### 1. 2-to-1 Multiplexer
-A structural design using a decoder to select input lines.
-* **Files:** `mul_2_to_1.v`, `decoder_1_to_2.v`, `tb_multi.v`.
-* **Logic:** Uses a 1-to-2 decoder to generate select signals for the AND-OR logic.
-
-
-### 2. 4-bit Ripple Carry Adder
-A hierarchical adder built from Half Adders and Full Adders.
-* **Files:** `ex3_4bitadd.v`, `ex3_fulladd.v`, `ex3_halfadd.v`, `tb_4bitadd.v`.
-* **Logic:** Cascades four Full Adders, passing the Carry Out of one stage to the Carry In of the next.
-
-
-### 3. 4-bit Comparator
-A hierarchical magnitude comparator built from 2-bit blocks.
-* **Files:** `ex4_compara4bit.v`, `Ex4_2bitcompara.v`, `tb_4bitcompa.v`, `tb_2bitcompara.v`.
-* **Logic:** Determines if Input A is Greater, Equal, or Less than Input B by comparing upper bits first, then cascading to lower bits.
-
----
-
-## 🔧 How to Run
-1.  Open your preferred Verilog simulator (e.g., ModelSim, Vivado, Icarus Verilog).
-2.  **For the FIFO Assignment:**
-    * Compile `Synchro_FIFO.v` and `fifo_tb.v`.
-    * Simulate `fifo_tb`.
-    * Check the console output for `FIFO is full` and `FIFO is empty` messages to verify pointer logic.
-3.  **For Lab 1 Exercises:**
-    * Compile the specific design file (e.g., `ex3_4bitadd.v`) and its dependencies (`ex3_fulladd.v`, etc.).
-    * Run the corresponding testbench (e.g., `tb_4bitadd.v`).
-
----
 *Written with support of Gemini.*
 
                                                                                         -01/08/2024-
