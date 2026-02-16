@@ -1,15 +1,11 @@
 # Synchronous FIFO & Digital Logic Design Projects
 
-[cite_start]**Course:** Logic Design with HDL (Semester 232)
-[cite_start]**Institution:** HCMC University of Technology - Faculty of Computer Science and Engineering 
-**Group:** 8
-
 ---
 
 ## 🚀 Main Assignment: Synchronous FIFO Circuit
 
 ### 📖 Overview
-This project implements a **Synchronous First-In-First-Out (FIFO)** memory buffer using Verilog HDL. [cite_start]The design is based on a circular buffer (ring buffer) architecture, where data written first is the first to be read out. This component is critical in digital systems for buffering data between subsystems operating at different speeds.
+This project implements a **Synchronous First-In-First-Out (FIFO)** memory buffer using Verilog HDL. The design is based on a circular buffer (ring buffer) architecture, where data written first is the first to be read out. This component is critical in digital systems for buffering data between subsystems operating at different speeds.
 
 
 
